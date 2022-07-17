@@ -1,0 +1,580 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1658041664363131, "dur":1885, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041664365029, "dur":6819, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1658041664371916, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1658041664371940, "dur":379, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1658041664372344, "dur":739, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041664373083, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665789872, "dur":246, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790118, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790130, "dur":50, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790180, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790212, "dur":19, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790231, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790239, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790242, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790250, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790253, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790260, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790263, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790270, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790273, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790281, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790284, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790291, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790306, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665790352, "dur":7645, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1658041664372729, "dur":410, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664373139, "dur":5604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664378785, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1658041664378888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664397619, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1658041664398684, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664398771, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664398797, "dur":55037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664453908, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664453971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664453981, "dur":117735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664571778, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664571845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664571851, "dur":69242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664641157, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664641216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664641224, "dur":59906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664701198, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664701253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664701261, "dur":42392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664743711, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664743768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664743774, "dur":57652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664801494, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664801549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664801558, "dur":54619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664856266, "dur":4052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664860325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664860333, "dur":30457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664890867, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664890927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664890935, "dur":41496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664932499, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664932559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664932592, "dur":31677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664964379, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041664964464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041664964473, "dur":58799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041665023341, "dur":86641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041665109986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041665109993, "dur":4594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041665114668, "dur":8323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1658041665122998, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041665123009, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1658041665123890, "dur":7295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1658041665131192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041665131202, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1658041665132057, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041665132146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041665132155, "dur":304566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041665436796, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1658041665436855, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041665436869, "dur":16796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1658041665453741, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041665453829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041665453837, "dur":96552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041665550460, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041665550517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658041665550526, "dur":176627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658041665727202, "dur":62672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664373136, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664373136, "dur":5595, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664378785, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1658041664378787, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664378874, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1658041664378882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664386623, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1658041664387282, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664387318, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664387678, "dur":12313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664400018, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664400101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664400110, "dur":60136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664460330, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664460398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664460407, "dur":111062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664571528, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664571587, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664571595, "dur":76560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664648222, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664648281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664648290, "dur":104720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664753084, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664753149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664753157, "dur":36725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664789957, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664790024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664790033, "dur":32393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664822499, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664822560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664822568, "dur":33622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664856261, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664856319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664856326, "dur":112287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664968681, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041664968751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041664968786, "dur":44072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041665012936, "dur":10302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1658041665023244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041665023253, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1658041665024042, "dur":9364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1658041665033411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041665033420, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1658041665034413, "dur":407341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041665441759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041665441768, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041665443228, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041665443285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658041665443293, "dur":149102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658041665592467, "dur":197412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664372880, "dur":300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664373180, "dur":5605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664378786, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1658041664378855, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664381468, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1658041664383906, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1658041664383954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664384016, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1658041664384763, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1658041664384797, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664384834, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1658041664385604, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1658041664385630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664385921, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1658041664386878, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1658041664386900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664386906, "dur":2495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1658041664389435, "dur":2714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame.exe" }}
+,{ "pid":12345, "tid":3, "ts":1658041664392159, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664392172, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame.exe" }}
+,{ "pid":12345, "tid":3, "ts":1658041664396013, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664396117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664396322, "dur":175246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664571619, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664571691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664571699, "dur":42531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664614288, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664614399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664614405, "dur":175883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664790922, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664791037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664791047, "dur":95054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664886382, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664886691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664886716, "dur":46012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664932790, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664932847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664932854, "dur":26698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664959624, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664959680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041664959688, "dur":26444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041664986217, "dur":53314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665039537, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665039548, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665040376, "dur":10047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665050429, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665050439, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665051208, "dur":2101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665053315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665053324, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665054127, "dur":8472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665062605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665062614, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665063481, "dur":8877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665072364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665072373, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665073179, "dur":26568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665099753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665099761, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665100681, "dur":12131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665112822, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665112836, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665114881, "dur":1260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665116148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665116157, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665117028, "dur":931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665117964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665117972, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665118681, "dur":7536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665126222, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665126231, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665127079, "dur":7997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665135082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665135091, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1658041665135920, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665135975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665135983, "dur":87633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665223682, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665223736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665223743, "dur":105322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665329135, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665329189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658041665329196, "dur":296603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658041665625884, "dur":164003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664373016, "dur":173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664373189, "dur":5599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664378788, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1658041664378859, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664385152, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1658041664385859, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1658041664385881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664385902, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1658041664386987, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664387019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664387271, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664388490, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664388529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664388535, "dur":182605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664571166, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664571236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664571246, "dur":33906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664605218, "dur":166712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664771936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664771945, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664773958, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664774023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664774060, "dur":109189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664883328, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664883389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664883397, "dur":44188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664927702, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664927863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664927872, "dur":37326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664965431, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041664965504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041664965514, "dur":153447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041665119020, "dur":2607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041665121633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041665121643, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041665123908, "dur":47415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041665171329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041665171338, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041665173255, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041665173308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041665173316, "dur":215324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041665388727, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041665388787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658041665388796, "dur":203878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658041665592740, "dur":197143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664373178, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664373179, "dur":5597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664378785, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1658041664378873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664385450, "dur":572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1658041664386040, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1658041664386072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664386082, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1658041664386794, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1658041664386818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664386824, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1658041664387747, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664387778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664387784, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664388547, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1658041664388569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664388574, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1658041664390506, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1658041664390532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664390754, "dur":8109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1658041664398885, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664398955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664398961, "dur":33269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664432299, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664432471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664432479, "dur":29514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664462584, "dur":3867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664466460, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664466472, "dur":104806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664571340, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664571404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664571411, "dur":31976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664604096, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664604185, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664604209, "dur":280648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664884934, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664885031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664885041, "dur":89237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664974448, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041664974926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041664974936, "dur":37916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665012927, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665012985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665013017, "dur":62316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665075399, "dur":9263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1658041665084686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665084696, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1658041665085476, "dur":42188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665127670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665127679, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665128945, "dur":9560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665138511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665138520, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665141472, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665141534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665141542, "dur":140469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665282084, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665282139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665282238, "dur":140008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665422509, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665422575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665422584, "dur":145760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658041665568603, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658041665568675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665568683, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1658041665569880, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1658041665569936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665569943, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1658041665570743, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658041665570801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665570807, "dur":7310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658041665578175, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1658041665578233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665578238, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1658041665578969, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1658041665579042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658041665579048, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1658041665579809, "dur":210059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664373258, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664373258, "dur":5520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664378785, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1658041664378856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664381420, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1658041664383851, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1658041664383873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664384010, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1658041664385061, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1658041664385096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664385107, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1658041664385854, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1658041664385891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664385911, "dur":60380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1658041664450603, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664450824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664450835, "dur":120374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664571269, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664571330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664571335, "dur":28003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664599405, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664599472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664599480, "dur":50082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664649630, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664649689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664649697, "dur":22912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664672676, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664672733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664672741, "dur":44202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664717012, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664717090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664717098, "dur":26269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664743433, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664743505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664743534, "dur":24549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664768160, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664768228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664768236, "dur":30928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664799236, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664799298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664799306, "dur":45357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664844742, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664844830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664844838, "dur":34214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664879124, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664879178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664879186, "dur":28063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664907318, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041664907377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041664907385, "dur":147702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041665055151, "dur":53600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041665108757, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041665108767, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041665110126, "dur":7490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1658041665117622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041665117630, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1658041665118529, "dur":29342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041665147877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041665147886, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041665148849, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041665148911, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041665148929, "dur":181375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041665330373, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041665330429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041665330462, "dur":242546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658041665573075, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1658041665573141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041665573151, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1658041665574009, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1658041665574067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041665574075, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1658041665575036, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658041665575092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041665575098, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658041665576134, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1658041665576197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041665576205, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1658041665577861, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1658041665577921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041665577926, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1658041665578680, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1658041665578739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658041665578745, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1658041665579631, "dur":210240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664373357, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664373357, "dur":5427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664378785, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1658041664378892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664399305, "dur":6153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1658041664405555, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664405669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664405681, "dur":58589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664464836, "dur":106042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664570888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664570903, "dur":33371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664604341, "dur":8352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1658041664612699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664612707, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1658041664613827, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664613888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664613895, "dur":42223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664656187, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664656242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664656250, "dur":130547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664786894, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664786957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664786968, "dur":78748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664865792, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664865849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664865857, "dur":29805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664895729, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664895784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664895792, "dur":40715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664936588, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664936649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041664936658, "dur":53406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041664990133, "dur":11715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1658041665001854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041665001863, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1658041665002904, "dur":7978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1658041665010888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041665010897, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1658041665012703, "dur":97030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665109742, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041665109753, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665113377, "dur":15436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1658041665128819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041665128845, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1658041665130038, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665130096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041665130105, "dur":114037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665244209, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665244266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041665244274, "dur":44558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665288900, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665288957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041665288965, "dur":42089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665331117, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665331173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041665331180, "dur":49710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665380955, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665381038, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041665381049, "dur":149516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665530635, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665530691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658041665530699, "dur":259067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658041665789822, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1658041665789823, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664373397, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664373398, "dur":5377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664378785, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1658041664378872, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664385989, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1658041664386752, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1658041664386783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664386795, "dur":15646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1658041664402494, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664402590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664402602, "dur":168682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664571345, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664571592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664571599, "dur":76646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664648311, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664648367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664648374, "dur":62950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664711390, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664711444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664711452, "dur":37001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664749923, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664750248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664750257, "dur":95718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664846063, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664846236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664846244, "dur":54082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664900495, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664900562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664900570, "dur":39446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664940088, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664940177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664940185, "dur":40888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041664981149, "dur":7889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1658041664989045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041664989054, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1658041664990139, "dur":110100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665100244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665100251, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665101163, "dur":7589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1658041665108757, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665108767, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1658041665110110, "dur":1385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665111502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665111513, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665113161, "dur":60813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665173978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665173985, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665174862, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665174918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665174925, "dur":129800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665304795, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665304860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665304872, "dur":245917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665550851, "dur":9397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1658041665560254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665560263, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1658041665561329, "dur":2409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665563744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665563752, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658041665564710, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1658041665564883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665565084, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1658041665565837, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1658041665565896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665565920, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1658041665568441, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658041665568558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665568566, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658041665571031, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658041665571089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665571114, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1658041665572040, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658041665572102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665572108, "dur":2421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658041665574601, "dur":1626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1658041665576233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665576241, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1658041665577066, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658041665577124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665577131, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658041665578003, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658041665578055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665578060, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658041665579030, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity3d/BallTheGame/BallTheGame_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1658041665579205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658041665579211, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity3d/BallTheGame/BallTheGame_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1658041665579900, "dur":209969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658041665799617, "dur":3458, "ph":"X", "name": "ProfilerWriteOutput" }
+,
